@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Number Display</title>
+</head>
+<body>
+    <h1>Random Number Display</h1>
+    <p>Last Random Number: {{ last_random_number }}</p>
+    <button id="refreshButton">Refresh</button>
+    <script>
+        // JavaScript를 사용하여 버튼을 클릭할 때마다 페이지를 새로 고침
+        document.getElementById("refreshButton").addEventListener("click", function() {
+            location.reload();
+        });
+    </script>
+</body>
+</html>
